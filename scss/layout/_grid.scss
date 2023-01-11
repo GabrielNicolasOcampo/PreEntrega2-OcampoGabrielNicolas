@@ -1,0 +1,58 @@
+/* aca comienza grid */
+
+#grilla {
+
+    display: grid;
+    grid-template-columns: 1fr 6fr 1fr;
+    grid-template-rows: 7vh 10vh 60vh 23vh;
+    grid-template-areas: "navegacion navegacion navegacion"
+        "productos productos  productos"
+        "servicios servicios  servicios"
+        "servicios servicios  servicios"
+        "pie_de_pagina pie_de_pagina  pie_de_pagina";
+}
+
+#card {
+
+    width: 14%;
+    height: 90%;
+    overflow: hidden;
+
+}
+
+
+.contenedor-card {
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+}
+
+nav {
+    background-color: #1A1B1F;
+    grid-area: navegacion;
+
+}
+
+#productos {
+    background-color: #1A1B1F;
+    grid-area: productos;
+    height: 100%;
+    width: 100%;
+
+}
+
+#servicios {
+    background-color: #1A1B1F;
+    grid-area: servicios;
+
+}
+
+footer {
+    grid-area: pie_de_pagina;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    color: #fff;
+    background-color: #1A1B1F;
+
+}

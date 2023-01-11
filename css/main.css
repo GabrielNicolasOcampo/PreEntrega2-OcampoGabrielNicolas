@@ -1,0 +1,13 @@
+/* elemento que tiene que ver con fuente */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+/* elementos que tienen que ver con componentes */
+/* Eelementos que tienen que ver con general */
+/* Elementos que tienen que ver con layout */
+/* elementos que tienen que ver con conmalize */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* elementos que tienen que ver con utilidades *//*# sourceMappingURL=main.css.map */

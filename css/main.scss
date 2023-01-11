@@ -1,0 +1,20 @@
+/* elemento que tiene que ver con fuente */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+/* elementos que tienen que ver con componentes */
+@import "../scss/Componentes/buttons";
+@import "../scss/Componentes/card";
+@import "../scss/Componentes/imagenes";
+@import "../scss/Componentes/navbar";
+@import "../scss/Componentes/titles";
+/* Eelementos que tienen que ver con general */
+@import "../scss/General/footer";
+@import "../scss/General/header";
+/* Elementos que tienen que ver con layout */
+@import "../scss/layout/flex";
+@import "../scss/layout/grid";
+/* elementos que tienen que ver con conmalize */
+@import "../scss/normalize/reset.scss";
+/* elementos que tienen que ver con utilidades */
+@import "../scss/Utilidades/colors";
+@import "../scss/Utilidades/variables";
+

@@ -1,0 +1,48 @@
+footer {
+    grid-area: pie_de_pagina;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    color: #fff;
+    background-color: #1A1B1F;
+
+}
+
+.contact {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    color: #fff;
+}
+
+.item__contact {
+    width: 25%;
+    padding: 60px 0;
+    text-align: center;
+    background: linear-gradient(180deg, var(--black2) 0%, var(--black1) 100%);
+    color: white
+}
+
+.item__contact {
+    width: 25%;
+    padding: 60px 0;
+    text-align: center;
+    background: linear-gradient(180deg, var(--black2) 0%, var(--black1) 100%);
+    color: white
+}
+
+.contact__icon {
+    font-size: 14px;
+    color: white;
+    line-height: 20px;
+    margin-right: 4px;
+}
+
+.contact__icon--modifier {
+    color: white;
+}
+
+.contact__title {
+    font-size: 16px;
+    line-height: 20px;
+}
