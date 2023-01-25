@@ -6,7 +6,7 @@
     --black1: #1A1B1F;
     --black2: #30353B;
     --red: #e40a0a;
-    --white:#fff;
+    --white: #fff;
 }
 
 /* reset de css */
@@ -92,17 +92,13 @@ footer {
 .link {
     padding: 10px 10px;
     text-decoration: none;
-    color: white
+    color: white;
+    padding: 7px 10px;
 }
-
 
 .links {
     padding-bottom: 10px;
     text-align: center;
-}
-
-.link {
-    padding: 7px 10px;
 }
 
 .logo__name {
@@ -256,6 +252,11 @@ hr {
     margin: 25px 0 12px;
     font-size: 18px;
 }
+
+.ul_white {
+    color: white;
+}
+
 
 
 .card__title {
@@ -556,6 +557,7 @@ hr {
 .link {
     width: 100%;
     background: linear-gradient(180deg, var(--black2) 0%, var(--black1) 100%);
+
 }
 
 .item__ {
@@ -696,6 +698,7 @@ hr {
 
 }
 
+
 @media screen and (max-width:700px) {
 
     main .container,
@@ -736,10 +739,8 @@ hr {
     .links {
         padding-bottom: 10px;
         text-align: center;
-    }
-
-    .link {
         padding: 7px 10px;
+        text-decoration: none;
     }
 
 
